@@ -18,6 +18,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{% if site.feed.path %}{{ site.feed.path | prepend: site.baseurl }}{% else %}{{ "/feed.xml" | prepend: site.baseurl }}{% endif %}">via RSS</a></p>
 
 </div>

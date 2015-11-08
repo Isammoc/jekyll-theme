@@ -10,8 +10,17 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+# jekyll-feed configurations
+#feed:
+#  path: feed.xml
+
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-feed
+
 exclude:
   - README.md
   - Gemfile
