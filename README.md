@@ -23,3 +23,4 @@ Enjoy !
 
  * Fully supported by [github pages](https://pages.github.com/)
  * Use [jekyll-feed](https://help.github.com/articles/atom-rss-feeds-for-github-pages/) plugin
+ * Use [disqus](https://disqus.com) comments
