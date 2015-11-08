@@ -16,7 +16,7 @@ github_username:  jekyll
 #  path: feed.xml
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 gems:
   - jekyll-feed
