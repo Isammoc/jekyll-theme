@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-11-08 14:17:20
 categories: jekyll update
-disable_comments: true
+comments: false
 author:
   name: Jekyll team
   github: jekyll
