@@ -12,6 +12,7 @@ layout: default
     {{ content }}
   </article>
 
+  {% include author.html %}
 <!-- Disqus comments -->
 {% if site.disqus and page.comments != false %}
   <div class="archive readmore">

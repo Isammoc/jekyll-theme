@@ -19,10 +19,16 @@ disqus_shortname: 'isammocsjekylltheme'
 
 author:
   name: Your Name Here # *Required* Display name of the author
+  description: > # this means to ignore newlines until email:
+    A short bio to explains who you are and what are your expert domains.
   email: your.name@example.com # Email address of the author
-  uri: # Webpage where more information about the author can be found
-  github: 'Isammoc/jekyll-theme' # Your github account
-  twitter: # Your twitter username
+  avatar: http://images.clipartlogo.com/files/ss/thumb/920/92073038/avatar-with-blank-question-mark_small.jpg
+  uri: http://blog.example.com # Webpage where more information about the author can be found
+  social:
+    - title: github
+      url: https://github.com/Isammoc/jekyll-theme
+    - title: twitter
+      url: https://twitter.com/isammoc ## TODO
 
 
 # jekyll-feed configurations
